@@ -13,6 +13,6 @@ public class LemonPie {
     }
 
     public void prepare() {
-        // Hmmmm delicous!
+        System.out.println("Hmmmm delicous lemon pie!");
     }
 }

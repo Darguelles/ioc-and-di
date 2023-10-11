@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class IocAndDiApplication {
 
 	public static void main(String[] args) {
+		ApplePie applePie = new ApplePie();
+		LemonPie lemonPie = new LemonPie();
+		applePie.prepare();
+		lemonPie.prepare();
 		SpringApplication.run(IocAndDiApplication.class, args);
 	}
 
