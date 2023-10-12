@@ -1,8 +1,8 @@
 package com.codenroll.iocanddi.service;
 
-import com.codenroll.iocanddi.Apple;
-import com.codenroll.iocanddi.Egg;
-import com.codenroll.iocanddi.Floor;
+import com.codenroll.iocanddi.model.Apple;
+import com.codenroll.iocanddi.model.Egg;
+import com.codenroll.iocanddi.model.Floor;
 
 public class ApplePieService implements PieService {
 

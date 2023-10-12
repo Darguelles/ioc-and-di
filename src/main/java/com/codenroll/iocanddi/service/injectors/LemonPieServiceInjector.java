@@ -1,8 +1,8 @@
 package com.codenroll.iocanddi.service.injectors;
 
-import com.codenroll.iocanddi.Egg;
-import com.codenroll.iocanddi.Floor;
-import com.codenroll.iocanddi.Lemon;
+import com.codenroll.iocanddi.model.Egg;
+import com.codenroll.iocanddi.model.Floor;
+import com.codenroll.iocanddi.model.Lemon;
 import com.codenroll.iocanddi.service.LemonPieService;
 import com.codenroll.iocanddi.service.PieService;
 
