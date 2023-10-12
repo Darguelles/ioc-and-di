@@ -2,17 +2,17 @@ package com.codenroll.iocanddi.service;
 
 import com.codenroll.iocanddi.model.Apple;
 import com.codenroll.iocanddi.model.Egg;
-import com.codenroll.iocanddi.model.Floor;
+import com.codenroll.iocanddi.model.Flour;
 
 public class ApplePieService implements PieService {
 
     private Apple apple;
-    private Floor floor;
+    private Flour flour;
     private Egg egg;
 
-    public ApplePieService(Apple apple, Floor floor, Egg egg) {
+    public ApplePieService(Apple apple, Flour flour, Egg egg) {
         this.apple = apple;
-        this.floor = floor;
+        this.flour = flour;
         this.egg = egg;
     }
 
